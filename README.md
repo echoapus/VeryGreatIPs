@@ -1,9 +1,10 @@
 # VeryGreatIPs
 VeryGreatIPs
-
-A easy script to block IP from certain AS number.
-Seperate 1 ASN ipset to two ipsets which are ipv4 and ipv6.
-ipset is limited, stop when over number, IPv4 and IPv6 are now working.
+## Block some annoying ASNs
+- A simple script to block IPs from a specific AS number.
+- Split one ASN ipset into two separate ipsets: one for IPv4 and one for IPv6.
+- Since ipset has limitations, the process will stop if the number exceeds the limit.
+- IPv4 and IPv6 functionalities are now operational.
 
 # iptables -L
 ```
